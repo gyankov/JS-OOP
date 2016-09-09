@@ -192,7 +192,11 @@ class LinkedList {
 
 
 
-//console.log(list.first)
+var list = new LinkedList();
+list.append('ilena','maika', 'gosho');
+list.prepend('yordan');
+list.insert(1, 'pesho', 'gohso');
+console.log(JSON.stringify(list));
 
 
 module.exports = LinkedList;
